@@ -1,0 +1,23 @@
+{
+    "name": "xag/mongo",
+    "description": "mongodb driver.",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "刘波",
+            "email": "liubo@xag.cn"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Xag\\Mongo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Xag\\Mongo\\Tests\\": "tests/"
+        }
+    }
+}
